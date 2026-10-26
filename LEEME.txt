@@ -1,0 +1,14 @@
+HOJA DE PEDIDO ATEMIA - VERSION PARA TU PROPIA PAGINA
+
+1) Sube las DOS cosas a tu hosting, en la misma carpeta (por ejemplo /pedidos/):
+   - index.html
+   - precios.json
+2) Tu enlace quedara asi: https://TU-DOMINIO/pedidos/
+
+PARA CAMBIAR PRECIOS: edita solo precios.json y vuelve a subirlo.
+   lista = precio de lista con IVA (Venus)       vol = precio de volumen con IVA (Venus)
+   sl / sv = Shell lista / volumen               tl / tv = lashista lista / volumen
+   um = sillas para precio de volumen            pa = anticipo (0.5 = 50%)
+   pt = pedidos con menos de estas sillas pagan el total (1000 = todos pagan el total)
+   pl = enlace de pago de Stripe
+Tus costos NO van en estos archivos; se quedan en tu Excel.
